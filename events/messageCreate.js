@@ -1,16 +1,17 @@
-const { Events } = require('discord.js');
+import { Events } from 'discord.js';
 
-module.exports = {
-	name: Events.MessageCreate,
-	async execute(message) {
-		if (message.author.bot) return;
+const name = Events.MessageCreate;
 
-		try {
-			if (message?.content?.toLowerCase()?.includes("meow")) {
-				message.reply("nya~!");
-			}
-		} catch (error) {
-			console.error(error);
+async function execute(message) {
+	if (message.author.bot) return;
+
+	try {
+		if (message?.content?.toLowerCase()?.includes("meow")) {
+			message.reply("nya~!");
 		}
-	},
-};
+	} catch (error) {
+		console.error(error);
+	}
+}
+
+export { name, execute }

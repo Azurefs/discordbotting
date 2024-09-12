@@ -130,3 +130,7 @@ dist
 .pnp.*
 
 config.json
+
+.DS_STORE
+
+./commands/resources/users.json
