@@ -19,7 +19,7 @@ async function execute(interaction) {
 	}
 	let leaderboardMsg = "====== Top Candy Owners =========="
 	for (const [index, element] of usersArr.entries()) {
-		leaderboardMsg += `\n **${index + 1}** - ${element[0]} - ${element[1]} Candy}`
+		leaderboardMsg += `\n **${index + 1}** - ${element[0]} - ${element[1]} Candy`
 	}
 	await interaction.reply(leaderboardMsg);
 }
