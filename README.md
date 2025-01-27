@@ -1,4 +1,4 @@
-[Note] This guide is half a CompClub Guide for Beginners and half a guide to replicate this project
+[Note] This guide is half a CompClub Guide for Beginners for the CompClub 2024 Winter Workshops and half a guide to replicate this project
 [NOTE] This code requires the use of Node v20.11 up. It may not work on the newest Node version (v22.8.0). If so, utilise a previous version.
 
 # Guide to how to create this Discord Bot
