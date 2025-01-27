@@ -134,5 +134,6 @@ config.json
 .DS_STORE
 
 commands/resources/.
+config.json
 
 
