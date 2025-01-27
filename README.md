@@ -1,6 +1,8 @@
 [Note] This guide is half a CompClub Guide for Beginners for the CompClub 2024 Winter Workshops and half a guide to replicate this project
 [NOTE] This code requires the use of Node v20.11 up. It may not work on the newest Node version (v22.8.0). If so, utilise a previous version.
 
+Note: This bot has not been tested for security exploits and some of the packages may be slightly outdated so be aware of that.
+
 # Guide to how to create this Discord Bot
 BoilerPlate Code website: https://discordjs.guide/#before-you-begin
 DiscordJs Documentation: https://discord.js.org/docs/packages/builders/1.8.2
